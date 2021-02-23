@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: 'Avenir Next Condensed', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.nav {
+  padding: 40px; }
+  .nav .logo {
+    width: 120px; }
+  .nav .nav-ul {
+    margin-top: 80px;
+    list-style-type: none; }
+    .nav .nav-ul li {
+      display: inline-flex;
+      text-align: center;
+      height: 40px; }
+      .nav .nav-ul li a {
+        color: #000;
+        font-size: 20px;
+        padding-top: 6px;
+        min-width: 110px; }
+    .nav .nav-ul .about {
+      text-align: center;
+      background-color: #2D5282;
+      border-radius: 10px;
+      margin-right: 10px; }
+      .nav .nav-ul .about a {
+        color: #fff;
+        width: 121px;
+        height: 40px; }
+  .nav .social-ul {
+    margin-top: 80px;
+    list-style-type: none;
+    float: right; }
+    .nav .social-ul li {
+      display: inline-flex; }
+      .nav .social-ul li:first-child {
+        margin-right: 20px; }
+
+.header {
+  width: 100vw;
+  position: absolute;
+  left: 0px;
+  font-family: 'Dosis', sans-serif;
+  background-image: url("../img/CTC-Web-BG-Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 67px 86px 102px 86px;
+  color: #fff; }
+  .header .col-xs-12, .header .col-xs-3, .header .col-sm-2, .header .col-xs-9, .header .col-sm-10 {
+    padding-left: 0;
+    padding-right: 0; }
+  .header img {
+    width: 70px;
+    float: right;
+    margin-top: 20px; }
+  .header h1 {
+    font-weight: 300;
+    font-size: 65px;
+    margin-top: 0;
+    margin-bottom: 0; }
+    .header h1 strong {
+      text-transform: uppercase;
+      font-weight: 600; }
+  .header h3 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 0; }
+  .header h1, .header h3 {
+    padding-left: 33px; }
+
+/*# sourceMappingURL=app.css.map */
